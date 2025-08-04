@@ -723,18 +723,18 @@ def plot_multiscale_equilibrium( conv_dict, date_list ):
 
 
 # Loading data into dictionary
-# conv_dict = load_data_on_multiscale_statistical_convergence( date_list, lat_list, pval=0.05 )
-# for mname in minfo_dict.keys():
-#     conv_dict[mname] = load_data_on_multiscale_evolution_of_metric( mname, date_list, lat_list )
-# with open('convergence_plot_info.pkl', 'wb') as f:
-#     pkl.dump(conv_dict, f)
+conv_dict = load_data_on_multiscale_statistical_convergence( date_list, lat_list, pval=0.05 )
+for mname in minfo_dict.keys():
+    conv_dict[mname] = load_data_on_multiscale_evolution_of_metric( mname, date_list, lat_list )
+with open('convergence_plot_info.pkl', 'wb') as f:
+    pkl.dump(conv_dict, f)
 
 with open('convergence_plot_info.pkl', 'rb') as f:
     conv_dict = pkl.load(f)
 
-# fig = plot_multiscale_evolution_of_convergence( conv_dict, date_list )
-# plt.savefig( 'manuscript_fig_convergence.pdf')
-# plt.close()
+fig = plot_multiscale_evolution_of_convergence( conv_dict, date_list )
+plt.savefig( 'manuscript_fig_convergence.pdf')
+plt.close()
 
 
 fig = plot_multiscale_equilibrium( conv_dict, date_list )
