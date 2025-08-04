@@ -23,8 +23,8 @@ date_ed = datetime(year=2011, month=3, day=1)
 time_int = timedelta( days=1 )
 
 # Path to SPEEDY reference ensemble and perturbed ensemble
-path_reference_ens_dir = '/fs/ess/PAS2856/SPEEDY_ensemble_data/reference_ens/data_raw'
-path_perturbed_ens_dir = '/fs/ess/PAS2856/SPEEDY_ensemble_data/perturbed_ens/data_raw'
+path_reference_ens_dir = 'SPEEDY_ensemble_data/reference_ens/data_raw'
+path_perturbed_ens_dir = 'SPEEDY_ensemble_data/perturbed_ens/data_raw'
 path_dict = {'ref': path_reference_ens_dir, 'prt': path_perturbed_ens_dir}
 
 # Typical date formatting
