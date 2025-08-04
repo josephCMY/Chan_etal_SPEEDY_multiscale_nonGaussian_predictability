@@ -39,8 +39,6 @@ The scripts assume a standard scientific Python environment. Key packages includ
 
 &nbsp; &nbsp; 
 
-# Usage
-
 
 
 ## Additional notes
