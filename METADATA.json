@@ -1,0 +1,35 @@
+{
+    "title": "Reproducibility Package for 'A distributional view on atmospheric predictability within a 1000-member general circulation model'",
+    "authors": [
+      {
+        "firstName": "Man-Yau",
+        "lastName": "Chan",
+        "email": "chan.1063@osu.edu",
+        "affiliation": "Department of Geography, The Ohio State University"
+      }
+   	 ],
+     "keywords": [
+	"Predictability",
+	"Probabilistic Forecast",
+	"Non-Gaussian Statistics",
+	"Numerical Weather Prediction"
+    ],
+    "fieldOfScience": "Atmospheric Science",
+    "abstract": "The atmosphere's predictability is intrinsically limited. This limit is traditionally quantified using root-mean-squared differences between forecast trajectories and an accompanying spectral analysis. However, such metrics only partially describe the evolution of forecast distributions (specifically, the variance). To address this limitation, we introduce a distributional framework for studying intrinsic predictability. Using a large ensemble of simulations with an intermediate-complexity atmospheric general circulation model, we demonstrate that an ensemble with initially minuscule variances converges to a time-dependent climatological distribution. The corresponding saturation times consistently exceed that of traditional predictability metrics across all spatial scales. Notably, the convergence process reveals a transient spike in non-Gaussianity, which we empirically relate to the bounded nature of the atmospheric attractor. The characteristics of the time-varying climatological distribution are also explored. Our work thus advances the study of atmospheric intrinsic predictability towards a distributional perspective with a connection to the atmospheric attractor",
+     "funders": [ 
+	{
+		"organization": "Office of Naval Research, USA",
+		"identifierType": "ror",
+		"identifier": "https://ror.org/00rk2pe57",
+		"awardNumber": "N000142512023" },
+	{
+	    "organization": "The Ohio State University" ,
+      "identifierType": "ror",
+		  "identifier": "https://ror.org/00rs6vg23"},
+  {
+    "organization": "Florida State University",
+		"identifierType": "ror",
+		"identifier": "https://ror.org/05g3dte14",
+		"awardNumber": "CRC Seed Grant 047080" }
+]
+  }
