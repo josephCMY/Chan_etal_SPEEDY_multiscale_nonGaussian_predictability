@@ -12,11 +12,8 @@ import numpy as np
 import pickle as pkl
 from datetime import datetime, timedelta
 import matplotlib.pyplot as plt
-import matplotlib.colors as mcolors
 import matplotlib.dates as mdates 
 from copy import deepcopy
-from gc import collect as gc_collect
-from scipy.stats import kstest
 from os.path import isfile
 
 
@@ -733,16 +730,16 @@ with open('convergence_plot_info.pkl', 'rb') as f:
     conv_dict = pkl.load(f)
 
 fig = plot_multiscale_evolution_of_convergence( conv_dict, date_list )
-plt.savefig( 'manuscript_fig_convergence.pdf')
+plt.savefig( 'figures/manuscript_fig_convergence.pdf')
 plt.close()
 
 
 fig = plot_multiscale_equilibrium( conv_dict, date_list )
-plt.savefig( 'manuscript_fig_equlibrium.pdf')
+plt.savefig( 'figures/manuscript_fig_equlibrium.pdf')
 plt.close()
 
 # fig = plot_multiscale_evolution_of_average_nonGauss( conv_dict, date_list )
-# plt.savefig('manuscript_fig_ratio_of_ratios.pdf')
+# plt.savefig('figures/manuscript_fig_ratio_of_ratios.pdf')
 # plt.close()
 
 

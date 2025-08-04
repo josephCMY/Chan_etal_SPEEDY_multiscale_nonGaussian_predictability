@@ -9,11 +9,6 @@ from matplotlib import use as mpl_use
 mpl_use('agg')
 import matplotlib.pyplot as plt
 from copy import deepcopy
-from matplotlib import ticker
-from gc import collect as gc_collect
-import pickle
-from scipy.stats import norm
-from matplotlib.cm import get_cmap
 from scipy.spatial import ConvexHull
 
 
@@ -377,5 +372,5 @@ for iperiod, day_st in enumerate([4,6,8]):
 
 
 plt.tight_layout()
-plt.savefig('manuscript_fig_pca.pdf')
+plt.savefig('figures/manuscript_fig_pca.pdf')
 
