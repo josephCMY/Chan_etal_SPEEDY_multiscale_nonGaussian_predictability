@@ -21,7 +21,13 @@ The resources provided here support reproducibility of the figures and key diagn
 
 - `SPEEDY_ensemble_data/`
   Directory containing a subset of the SPEEDY ensembles' surface pressure fields
-  
+
+- `manuscript_plot_multiscale_convergence.py` /
+  Python script used to produce Figures 1 and 3 of the manuscript.
+
+- `manuscript_plot_psurf2_eigenspace_distribution.py` /
+  Python script used to produce Figure 2 of the manuscript.
+
 &nbsp; &nbsp; 
 
 
